@@ -1,4 +1,6 @@
 const words = ["Sometimes Poems,", "But", "Mostly Code;"];
+const poem_section = document.getElementById("poems");
+const API_URL = "https://pw-cms.herokuapp.com/poems";
 let wordIndex = 0;
 let charIndex = 0;
 (function boom() {
@@ -31,3 +33,17 @@ function randomFromArray(arr) {
   let r = Math.floor(Math.random() * len);
   return arr[r];
 }
+//TODO : Add pagiantion ,will be useful if switch career :D
+(async function getandSetPoems() {
+  let res = await fetch(API_URL);
+  let json = await res.json();
+  for (let poem of json) {
+    let content = poem.content.replace(/\n/g, "<br />");
+    let poem_div = document.createElement("div");
+    poem_div.classList.add("hand-drawn");
+    poem_div.innerHTML = `<h1>${poem.name}</h1>
+    <h3>${poem.desc}</h3>
+    <p>${content}</p>`;
+    poem_section.appendChild(poem_div);
+  }
+})();
