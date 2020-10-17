@@ -1,4 +1,4 @@
-const words = ["Sometimes Poems,", "Mostly Code !!"];
+const words = ["Sometimes Poems,", "But", "Mostly Code;"];
 let wordIndex = 0;
 let charIndex = 0;
 (function boom() {
@@ -29,6 +29,5 @@ let charIndex = 0;
 function randomFromArray(arr) {
   let len = arr.length;
   let r = Math.floor(Math.random() * len);
-  console.log(r);
   return arr[r];
 }
