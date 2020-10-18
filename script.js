@@ -19,7 +19,7 @@ let charIndex = 0;
     let emoji = document.createElement("div");
     emoji.classList.add("emoji");
     emoji.style.left = (Math.random() * window.innerWidth) / 4 + "px";
-    emoji.style.top = (Math.random() * window.innerHeight) / 2 + "px";
+    emoji.style.top = Math.random() * window.innerHeight + 100 + "vh";
     emoji.textContent = `${randomFromArray(m_data[month].emojis)}`;
     document.body.appendChild(emoji);
     document.body.style.color = m_data[month].color;

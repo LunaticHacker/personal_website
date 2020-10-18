@@ -84,10 +84,11 @@ section {
 .emoji {
   position: absolute;
   font-size: 1em;
-  animation: drop 5s infinite ease;
+  animation: rise 15s infinite ease;
 }
-@keyframes drop {
+@keyframes rise {
   100% {
-    top: 100vh;
+    top: 1vh;
+    font-size: 3rem;
   }
 }
