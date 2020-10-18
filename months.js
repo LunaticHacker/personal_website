@@ -8,7 +8,7 @@ let m_data = {
   5: { emojis: ["🏳️‍🌈", "🌈", "💉"], color: "purple" },
   6: { emojis: ["🤣", "😂", "♟️"], color: "white" },
   7: { emojis: ["🐈", "✊"], color: "white" },
-  8: { emojis: ["☮️", "🦻"], color: "white" },
+  8: { emojis: ["☮️"], color: "white" },
   9: { emojis: ["🎃", "👨‍🏫", "👩‍🏫", "🇺🇳"], color: "orange" },
   10: { emojis: ["🥗"], color: "green" },
   11: { emojis: ["☃️", "❄️"], color: "red" },
