@@ -13,20 +13,19 @@ let charIndex = 0;
   }
   setTimeout(boom, 500);
 })();
-(function drop() {
-  let month = new Date().getMonth();
-  for (let i = 0; i < 30; i++) {
-    let emoji = document.createElement("div");
-    emoji.classList.add("emoji");
-    emoji.style.left = (Math.random() * window.innerWidth) / 4 + "px";
-    emoji.style.top = Math.random() * window.innerHeight + 100 + "vh";
-    emoji.textContent = `${randomFromArray(m_data[month].emojis)}`;
-    document.body.appendChild(emoji);
-    document.body.style.color = m_data[month].color;
-    let links = document.querySelectorAll("a");
-    for (link of links) link.style["border-color"] = m_data[month].color;
-  }
-})();
+function drop(e) {
+  let emoji = document.createElement("div");
+  emoji.classList.add("emoji");
+  emoji.style.left = e.clientX + "px";
+  emoji.style.top = pageYOffset + e.clientY + "px";
+  emoji.textContent = `${randomFromArray(m_data[month].emojis)}`;
+  document.body.appendChild(emoji);
+}
+let month = new Date().getMonth();
+document.body.style.color = m_data[month].color;
+let links = document.querySelectorAll("a");
+for (link of links) link.style["border-color"] = m_data[month].color;
+document.body.addEventListener("click", drop);
 
 function randomFromArray(arr) {
   let len = arr.length;

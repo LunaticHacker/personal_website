@@ -22,11 +22,17 @@ nav a {
   border: 2px solid white;
   text-decoration: none;
 }
+main h1 {
+  font-size: 5em;
+}
 main h1::after {
   content: "✍️";
 }
 main h1::before {
   content: "✍️";
+}
+main h2 {
+  font-size: 3em;
 }
 .typing {
   margin-left: 10px;

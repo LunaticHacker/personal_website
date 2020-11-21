@@ -2,7 +2,7 @@
 let m_data = {
   0: { emojis: ["🎆", "📓"], color: "blue" },
   1: { emojis: ["💖", "👩‍🔬", "📻"], color: "red" },
-  2: { emojis: ["👩", "🌳"], color: "green" },
+  2: { emojis: ["👩", "🌳"], color: "forestgreen" },
   3: { emojis: ["🏥", "🌎", "🌍", "🌏"], color: "white" },
   4: { emojis: ["👩‍👦", "👩‍👧", "📰", "☕", "🐝"], color: "white" },
   5: { emojis: ["🏳️‍🌈", "🌈", "💉"], color: "purple" },
@@ -10,6 +10,6 @@ let m_data = {
   7: { emojis: ["🐈", "✊"], color: "white" },
   8: { emojis: ["☮️"], color: "white" },
   9: { emojis: ["🎃", "👨‍🏫", "👩‍🏫", "🇺🇳"], color: "orange" },
-  10: { emojis: ["🥗"], color: "green" },
+  10: { emojis: ["🥗"], color: "forestgreen" },
   11: { emojis: ["☃️", "❄️"], color: "red" },
 };
