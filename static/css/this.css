@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+main {
+  box-sizing: border-box;
+}
+a {
+  margin: 0.5em;
+}
+h1 {
+  color: #98971a;
+  position: relative;
+  padding: 1em;
+  overflow: hidden;
+  font-size: 1em;
+}
+h2 {
+  color: #98971a;
+  font-size: 1em;
+}
+h1::after {
+  content: "==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================";
+  bottom: 0.1em;
+  left: 0;
+  position: absolute;
+}
+.avatar {
+  display: block;
+  width: 15rem;
+  height: 20rem;
+  float: left;
+}
+.intro {
+  height: 25rem;
+  padding: 1em;
+}
+.poems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.border {
+  border: 3px groove #98971a;
+  padding: 1em;
+}
+@media only screen and (max-width: 600px) {
+  .avatar {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
