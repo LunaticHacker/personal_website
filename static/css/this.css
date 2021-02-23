@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
 }
-main {
-  box-sizing: border-box;
+.main {
+  background-color: #282828;
 }
 a {
   margin: 0.5em;
