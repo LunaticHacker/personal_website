@@ -31,10 +31,6 @@ h1::after {
   height: 20rem;
   float: left;
 }
-.intro {
-  height: 25rem;
-  padding: 1em;
-}
 .poems {
   display: flex;
   flex-direction: column;
@@ -50,4 +46,13 @@ h1::after {
     margin-right: auto;
     float: none;
   }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
