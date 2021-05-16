@@ -43,13 +43,6 @@ h1::after {
   border: 3px groove #98971a;
   padding: 1em;
 }
-@media only screen and (max-width: 600px) {
-  .avatar {
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-}
 footer {
   display: flex;
   justify-content: center;
@@ -78,7 +71,19 @@ a
   font-size: 6rem;
   transform: rotate(10deg);
 }
+.o-four
+{
+  font-size: 6rem;
+  transform: rotate(-30deg);
+}
 .ftxt
 {
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .avatar {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
 }
