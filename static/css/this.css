@@ -59,3 +59,26 @@ ul {
   margin: 0;
   padding: 0;
 }
+a
+{
+  color: #ff2e88;
+}
+.O
+{
+    width: 15rem;
+    height: 15rem;
+}
+.wrapper
+{
+  display: flex;
+  justify-content: center;
+}
+.four
+{
+  font-size: 6rem;
+  transform: rotate(10deg);
+}
+.ftxt
+{
+  text-align: center;
+}
