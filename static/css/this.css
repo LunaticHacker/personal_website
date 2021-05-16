@@ -10,6 +10,11 @@ body {
 }
 a {
   margin: 0.5em;
+  color: #ff2e88;
+}
+a:visited
+{
+  color: #ff2e88;
 }
 h1 {
   color: #98971a;
@@ -51,10 +56,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-a
-{
-  color: #ff2e88;
 }
 .O
 {
