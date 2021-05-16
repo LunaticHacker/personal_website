@@ -15,11 +15,17 @@
         <main class="main">
             <div class="wrapper">
             <p class="four">4</p>
-            <img class="O" src="/images/O.png" alt="Digital Avatar of LunaticHacker">
+            <img class="O" alt="Digital Avatar of LunaticHacker">
             <p class="o-four">4</p>
         </div>
-        <p class="ftxt">No,I don't have it</p>
+        <p class="ftxt">I don't have it</p>
         </main>
         
     </body>
+    <script>
+        let arr =["O.png","wum.png","s.png"]
+        let img = document.getElementsByClassName("O")[0];
+        let index = Math.floor(Math.random()*3)
+        img.src=`/images/${arr[index]}`
+    </script>
 </html>
