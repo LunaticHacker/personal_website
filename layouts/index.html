@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>{{.Site.Title}}</title>
-        <link rel="stylesheet" href="/css/gruvbox.css">
-        <link rel="stylesheet" href="/css/snow.css">
-        <link rel="stylesheet" href="/css/this.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="LunaticHacker lives here">
-        
-    </head>
+    {{partial "head"}}
     <body class="snow">
         {{partial "header"}}
             
         <main class="main">
+            <div class="home">
             <img class="avatar" src="/images/avatar.png" alt="Digital Avatar of LunaticHacker">
             <h1>LunaticHacker</h1>
-            
                {{.Content}}
                {{partial "footer"}}
+            </div>
         </main>
        
         
