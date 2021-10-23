@@ -4,6 +4,7 @@
 }
 .main {
   background-color: #282828;
+  box-sizing: border-box;
 }
 a {
   margin: 0.5em;

@@ -3,5 +3,11 @@ title: "LunaticHacker"
 draft: false
 ---
 
-Hi I'm LunaticHacker, I spend most of my time writing code or researching ideas to code,if you are looking for my coding projects take a look at my[Github](https://github.com/LunaticHacker)
-Sometimes i scribble down short[Poems](/poems) I don't use any social media if anything is important steal my email from my gitlogs, (responses will be slow)
+Hi I'm LunaticHacker. I spend most of my time writing code or studying topics from CS, Maths and Marxist Theory
+
+If you are looking for my coding projects take a look at my [Github](https://github.com/LunaticHacker)
+else there isn't much here other than these [scribblings](/poems)
+
+You can stalk me at [lemmy](https://lemmy.ml/u/lunatichacker) or [lemmygrad](https://lemmygrad.ml/u/lunatichacker)
+
+If you want to get in touch with me steal my email from my gitlogs or ping me on [matrix](https://matrix.to/#/@lunatichacker:matrix.org)(responses will be slow)
