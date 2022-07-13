@@ -3,16 +3,16 @@
   justify-content: center;
 }
 .main {
-  background-color: #282828;
+  background-color: #1d2021;
   box-sizing: border-box;
 }
 a {
   margin: 0.5em;
-  color: #ff2e88;
+  color: #ffa8ce;
 }
 a:visited
 {
-  color: #ff2e88;
+  color: #ffa8ce;
 }
 h1 {
   color: #98971a;

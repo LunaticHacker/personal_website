@@ -30,10 +30,6 @@ THE SOFTWARE. */
   }
 }
 
-main {
-  background-color: #282828;
-}
-
 @media (prefers-color-scheme: light) {
   main {
     background-color: #fbf1c7;

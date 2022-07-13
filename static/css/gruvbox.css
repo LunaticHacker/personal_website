@@ -36,8 +36,8 @@ main {
 }
 
 body {
-  background: #282828;
-  color: #ebdbb2;
+  background: #1d2021;
+  color:      #f9f5d7;
 }
 
 pre {
@@ -46,19 +46,15 @@ pre {
   border: 0;
 }
 
-a,
-a:active,
-a:visited {
-  color: #b16286;
+a, a:active, a:visited {
+  color: #f9f5d7;
   background-color: #1d2021;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin-bottom: 0.1rem;
+h1, h2, h3, h4, h5 {
+  margin-bottom: .1rem;
 }
 
 blockquote {
